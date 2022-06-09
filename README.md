@@ -1,4 +1,4 @@
-# Infinity Development!
+# Infinity Development
 Simple one page site used to house some of our information and projects.
 
 ---
