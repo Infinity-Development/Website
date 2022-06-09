@@ -63,7 +63,8 @@ export default {
 				'Python',
 				'Figma',
 				'CSharp',
-				'CLang',
+				'CPlusPlus',
+				'Clang',
 				'GoLang',
 				'Fastify'
 			],
