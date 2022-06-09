@@ -12,3 +12,8 @@ This code is Open-Source for transparency. We will not assist you with self host
 - Vue
 - NuxtJS
 - TailwindCSS
+
+---
+
+## Sample
+![Yeeeet](https://toxic-is-senpai.wtf/93aeed.mp4)
