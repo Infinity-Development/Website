@@ -16,4 +16,4 @@ This code is Open-Source for transparency. We will not assist you with self host
 ---
 
 ## Sample
-![Yeeeet](https://toxic-is-senpai.wtf/93aeed.mp4)
+![Yeeeet](https://toxic-is-senpai.wtf/93aeed.gif)
