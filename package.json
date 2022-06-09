@@ -1,0 +1,25 @@
+{
+    "name": "@infinity/dev-portfolio",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "core-js": "^3.8.2",
+        "nuxt": "^2.14.12",
+        "vue-scroll-reveal": "^1.0.11"
+    },
+    "devDependencies": {
+        "@nuxtjs/tailwindcss": "^3.4.2",
+        "autoprefixer": "^9",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "postcss": "^7",
+        "prettier": "^2.2.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    }
+}
