@@ -19,10 +19,10 @@ export default {
 			},
 			{ hid: 'description', name: 'description', content: 'Just a team of developers from all around the world working together to provide you with the best Discord Services and Websites' },
             { hid: 'og:title', name: 'og:title', content: 'Infinity Development' },
-            { hid: 'og:image', name: 'og:image', content: 'https://cdn.discordapp.com/attachments/653733403841134600/984391086556475392/IMG_5685.png' },
+            { hid: 'og:image', name: 'og:image', content: 'https://cdn.discordapp.com/attachments/653733403841134600/984416522841755689/InfinityDev.webp' },
 			{ hid: 'og:description', name: 'og:description', content: 'Just a team of developers from all around the world working together to provide you with the best Discord Services and Websites'}
 		],
-		link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://cdn.discordapp.com/attachments/653733403841134600/984391086556475392/IMG_5685.png' }],
+		link: [{ rel: 'icon', type: 'image/x-icon', href: 'https://cdn.discordapp.com/attachments/653733403841134600/984416522841755689/InfinityDev.webp' }],
 	},
 
 	tailwindcss: {
