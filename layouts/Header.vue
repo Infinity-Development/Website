@@ -30,7 +30,7 @@ export default {
 				{ title: 'About', href: '#about' },
 				{ title: 'Projects', href: '#projects' },
 				{ title: 'Discord', href: 'https://infinitybots.gg/discord', target: true },
-				{ title: 'Twitter', href: 'https://twitter.com/TheInfinityDevs', target: true },
+				{ title: 'Twitter', href: 'https://twitter.com/InfinityDevsLLC', target: true },
 			],
 		}
 	},
