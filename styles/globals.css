@@ -1,0 +1,169 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+
+.anim_7 {
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.anim_7.fade {
+  opacity: 1;
+  transition-delay: 2000ms;
+}
+
+li {
+  @apply bg-purple-900 rounded-lg;
+}
+
+nav {
+  background: #15141E;
+}
+
+span {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+@media screen and (max-width: 640px) {
+  .resume {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  nav {
+    background: transparent;
+  }
+  
+  span {
+    height: 4.25rem;
+    width: 1px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  span {
+    display: none;
+  }
+}
+
+.chevron {
+  animation-duration: 0.8s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.anim_1,
+.anim_2,
+.anim_3,
+.anim_4,
+.anim_5,
+.anim_6 {
+  transition: all 0.5s ease;
+}
+
+.anim_1.fade {
+  transition-delay: 0.25s;
+  opacity: 0.6;
+}
+
+.anim_2.rightToLeft {
+  opacity: 1;
+  transition-delay: 0.5s;
+  transform: translateX(0px);
+}
+
+.anim_3.rightToLeft {
+  opacity: 0.6;
+  transition-delay: 1s;
+  transform: translateX(0px);
+}
+
+.anim_4.fade {
+  opacity: 0.6;
+  transition-delay: 1.5s;
+}
+
+.anim_5.fade,
+.anim_6.fade {
+  opacity: 1;
+  transition-delay: 1.75s;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@media (max-width: 320px) {
+  .chevron {
+    display: none;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+.project-info {
+  background: #16151E;
+  border: 4px solid #7289DA;
+  transform: translateY(-100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+.project-img:hover .project-info {
+  transform: translateY(0);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
+* {
+	font-family: 'Heebo', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background: #242539;
+}
+.centered-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-info {
+  max-height: 2;
+  overflow: hidden;
+  transition: max-height 1.3s ease;
+}
+
+.project-img:hover .project-info {
+  max-height: 1000px;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.top-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Change the background color as needed */
+  z-index: 1000; /* Adjust the z-index value if needed */
+  padding: 10px; /* Add padding as needed */
+  color: white; /* Text color */
+}
