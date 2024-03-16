@@ -1,6 +1,6 @@
-import { FC, useState } from 'react'
-import Image from 'next/image'
-import { StaticImageData } from 'next/image'
+import { FC, useState } from 'react';
+import Image from 'next/image';
+import { StaticImageData } from 'next/image';
 import infinitybots from '../../public/infinitybots.png'
 import diswidgets from '../../public/diswidgets.png'
 import metroreviews from '../../public/metro.png'
@@ -12,29 +12,24 @@ import modhub from '../../public/modhub.png'
 import toxmod from '../../public/toxmod.png'
 
 interface Project {
-  img: StaticImageData
-  title: string
-  resume: string
-  url: string
-  source: string
+  img: StaticImageData;
+  title: string;
+  resume: string;
+  url: string;
+  source: string;
 }
 
 interface ProjectsProps {
-  projects: Project[]
+  projects: Project[];
 }
 
 const Projects: FC<ProjectsProps> = ({ projects }) => {
-  const [hoveredProject, setHoveredProject] = useState<number | null>(null)
+  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <section
-        id="projects"
-        className="text-white sm:min-h-0 h-auto pt-28 sm:pt-32 sm:w-10/12"
-      >
-        <h2 className="uppercase text-xl mb-6 sm:text-2xl md:text-3xl lg:text-4xl">
-          Our Projects
-        </h2>
+      <section id="projects" className="text-white sm:min-h-0 h-auto pt-28 sm:pt-32 sm:w-10/12">
+        <h2 className="uppercase text-xl mb-6 sm:text-2xl md:text-3xl lg:text-4xl">Our Projects</h2>
         <hr className="mb-6 border-gray-300" />
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
           {projects.map((project, index) => (
@@ -52,33 +47,20 @@ const Projects: FC<ProjectsProps> = ({ projects }) => {
                   width={196}
                   height={152}
                   objectFit="cover"
+                  className={`transition-transform duration-300 transform ${hoveredProject === index ? 'scale-110' : ''}`}
                 />
               </div>
               <div
-                className={`project-info absolute top-0 w-full h-full text-sm px-6 flex flex-col justify-center flex flex-col sm:text-base md:px-10 ${
-                  hoveredProject === index ? 'slide-down' : ''
-                }`}
+                className={`project-info absolute top-0 w-full h-full text-sm px-6 flex flex-col justify-center flex flex-col sm:text-base md:px-10 slide-down ${hoveredProject === index ? 'show-details' : ''}`}
               >
                 <p className="text-lg sm:text-xl">{project.title}</p>
                 <p className="italic">{project.resume}</p>
                 <div className="flex justify-between mt-8">
                   <button className="border p-1 rounded w-16 hover:bg-white hover:text-black sm:w-20">
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View
-                    </a>
+                    <a href={project.url} target="_blank" rel="noopener noreferrer">View</a>
                   </button>
                   <button className="hover:underline">
-                    <a
-                      href={project.source}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Source
-                    </a>
+                    <a href={project.source} target="_blank" rel="noopener noreferrer">Source</a>
                   </button>
                 </div>
               </div>
@@ -87,12 +69,13 @@ const Projects: FC<ProjectsProps> = ({ projects }) => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
 
-const projectsData: Project[] = [
+
+const projectsData: Project[] =  [
   {
     img: infinitybots,
     title: 'Infinity Bot List',
@@ -162,6 +145,6 @@ const projectsData: Project[] = [
     url: 'https://toxmod.xyz/',
     source: 'https://github.com/Tox-Mod/ToxModBot',
   },
-]
+];
 
-export { Projects, projectsData }
+export { Projects, projectsData };

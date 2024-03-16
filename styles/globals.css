@@ -117,7 +117,21 @@ span {
   background: #16151E;
   border: 4px solid #7289DA;
   transform: translateY(-100%);
-  transition: transform 0.4s ease-in-out;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.show-details {
+  opacity: 1;
+}
+
+.project-container {
+  position: relative;
+  transition: opacity 0.5s ease;
+}
+
+.project-container:hover .project-info {
+  opacity: 1;
 }
 
 .project-img:hover .project-info {
