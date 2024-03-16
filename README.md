@@ -9,8 +9,8 @@ This code is Open-Source for transparency. We will not assist you with self host
 ---
 
 ## Made With
-- Vue
-- NuxtJS
+- React
+- NextJS
 - TailwindCSS
 
 ---
