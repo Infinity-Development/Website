@@ -1,10 +1,10 @@
 # Infinity Development
-Simple one page site used to house some of our information and projects.
+A simple one-page site used to house some of our information and projects.
 
 ---
 
 ## Self-Hosting
-This code is Open-Source for transparency. We will not assist you with self hosting it.
+This code is open source for transparency. We will not assist you with self-hosting it.
 
 ---
 
