@@ -40,13 +40,9 @@
 <script>
 import infinitybots from '@/assets/infinitybots.png'
 import diswidgets from '@/assets/diswidgets.png'
-import metroreviews from '@/assets/metro.png'
+import cordx from '@/assets/cordx.png'
 import linkcord from '@/assets/linkcord.png'
-import tweeter from '@/assets/tweeter.png'
-import dscjobs from '@/assets/dscjobs.png'
-import devhub from '@/assets/devhub.png'
-import modhub from '@/assets/modhub.png'
-import toxmod from '@/assets/toxmod.png'
+import nexium from '@/assets/nexium.png'
 
 export default {
 	name: 'Projects',
@@ -55,17 +51,17 @@ export default {
 			projects: [
 				{
 					img: infinitybots,
-					title: 'Infinity Bot List',
-					resume: 'Search our vast list of bots for an exciting start to your Discord Server.',
+					title: 'Infinity List',
+					resume: 'Begin your Discord journey with our extensive directory.',
 					url: 'https://infinitybots.gg',
 					source: 'https://github.com/InfinityBotList',
 				},
 				{
-					img: metroreviews,
-					title: 'Metro Reviews',
-					resume: 'The Dedicated Community of Discord Bot Lists made by Discord Bot Lists.',
-					url: 'https://metrobots.xyz',
-					source: 'https://github.com/MetroReviews/Website',
+					img: cordx,
+					title: 'CordX',
+					resume: 'Discover seamless media sharing and storage.',
+					url: 'https://cordx.lol',
+					source: 'https://github.com/CordXApp',
 				},
 				{
 					img: diswidgets,
@@ -82,40 +78,12 @@ export default {
 					source: 'https://github.com/LinkCordApp',
 				},
 				{
-					img: dscjobs,
-					title: 'DscJobs',
-					resume: 'Find the best Moderators & Developers for your servers!',
-					url: 'https://dscjobs.org',
-					source: 'https://github.com/DscJobs',
-				},
-				{
-					img: devhub,
-					title: 'Dev Hub',
-					resume: 'The information sharing community made for developers and programmers alike.',
-					url: 'https://devhub.life',
-					source: 'https://discord.com/invite/6pRxaNeRX8',
-				},
-				{
-					img: modhub,
-					title: 'Mod Hub',
-					resume: 'Find the best Moderators & Developers for your servers!',
-					url: 'https://modhub.gg',
-					source: 'https://github.com/ModHub-gg',
-				},
-				{
-					img: tweeter,
-					title: 'Tweeter',
-					resume: 'The Number one Open-Source Discord Bot for Twitter Notification Streaming and Monitors.',
-					url: 'https://tweeterbot.xyz/',
-					source: 'https://github.com/TheRealToxicDev/Tweeter',
-				},
-				{
-					img: toxmod,
-					title: 'Tox Mod',
-					resume: 'The Open-Source Discord Bot with a little bit of Attitude.',
-					url: 'https://toxmod.xyz/',
-					source: 'https://github.com/Tox-Mod/ToxModBot',
-				},
+					img: nexium,
+					title: 'Nexium',
+					resume: 'Nexium is here to revolutionize the way you find and connect with top-notch talent in the Discord community.',
+					url: 'https://nexisite.xyz',
+					source: 'https://github.com/NexiumOSS',
+				}
 			],
 		}
 	},
