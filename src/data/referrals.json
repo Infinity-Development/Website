@@ -1,0 +1,205 @@
+[
+	{
+		"section": "Hosting Referrals",
+		"about": "This section contains referrals for hosting services.",
+		"slug": "hosting-referrals",
+		"referrals": [
+			{
+				"aliases": [
+					"render",
+					"hosting"
+				],
+				"color": "#46E3B7",
+				"description": "Render is a unified cloud to build and run all your apps and websites with free SSL, a global CDN, private networks and auto deploys from Git.",
+				"homepage": "https://render.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "Render",
+				"url": "https://render.com?ref=infinity-development",
+				"category": "Hosting"
+			},
+			{
+				"aliases": [
+					"netlify",
+					"hosting"
+				],
+				"color": "#00AD9F",
+				"description": "Netlify is a web developer platform that multiplies productivity. By uniting an extensive ecosystem of technologies, services, and APIs into a single workflow, Netlify unlocks new levels of team productivity, while saving time and money.",
+				"homepage": "https://www.netlify.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "Netlify",
+				"url": "https://www.netlify.com",
+				"category": "Hosting"
+			},
+			{
+				"aliases": [
+					"ezrinix",
+					"hosting"
+				],
+				"bonus": "",
+				"color": "#0076FF",
+				"code": "INFINITY",
+				"description": "Experience unmatched performance, security, and support with our cutting-edge hosting platform.",
+				"homepage": "https://ezrinix.com/",
+				"icon": "heroicons-outline:cloud",
+				"name": "Ezrinix",
+				"url": "",
+				"category": "Hosting"
+			},
+			{
+				"aliases": [
+					"cybrancee",
+					"hosting"
+				],
+				"bonus": "One month free with code INFINITYBOTS",
+				"color": "#9500CC",
+				"code": "INFINITYBOTS",
+				"description": "Cybrancee provides users with a powerful platform to host their digital projects.",
+				"homepage": "https://cybrancee.com/",
+				"icon": "heroicons-outline:cloud",
+				"name": "Cybrancee",
+				"url": "",
+				"category": "Hosting"
+			},
+			{
+				"aliases": [
+					"nodebyte",
+					"hosting"
+				],
+				"bonus": "10% off at checkout with code INFINITY",
+				"code": "INFINITY",
+				"color": "#319C6C",
+				"description": "Fast, reliable, scalable and secure hosting services for your business or gaming experience.",
+				"homepage": "https://nodebyte.host/",
+				"icon": "heroicons-outline:cloud",
+				"name": "NodeByte",
+				"url": "",
+				"category": "Hosting"
+			},
+			{
+				"color": "black",
+				"description": "Develop. Preview. Ship.",
+				"homepage": "https://vercel.com/home",
+				"icon": "heroicons-outline:cloud",
+				"name": "Vercel",
+				"url": "https://vercel.com/home?utm_source=toxic-development&utm_campaign=oss",
+				"category": "Hosting"
+			}
+		]
+	},
+	{
+		"section": "Cloud Referrals",
+		"about": "This section contains referrals for cloud services.",
+		"slug": "cloud-referrals",
+		"referrals": [
+			{
+				"aliases": [
+					"cloud",
+					"do"
+				],
+				"bonus": "Free $200 credit over 60 days",
+				"color": "#0069ff",
+				"description": "Cloud platform to deploy, manage & scale applications",
+				"homepage": "https://www.digitalocean.com/",
+				"icon": "heroicons-outline:server",
+				"name": "DigitalOcean",
+				"url": "https://m.do.co/c/a7f497dd62e5",
+				"category": "Cloud"
+			},
+			{
+				"color": "#853bce",
+				"description": "Build apps. Not infrastructure.",
+				"homepage": "https://railway.app",
+				"icon": "heroicons-outline:cloud",
+				"name": "Railway",
+				"url": "https://railway.app?referralCode=toxic-development",
+				"category": "Cloud"
+			},
+			{
+				"aliases": [
+					"aws",
+					"cloud"
+				],
+				"color": "#FF9900",
+				"description": "Amazon Web Services offers reliable, scalable, and inexpensive cloud computing services.",
+				"homepage": "https://aws.amazon.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "AWS",
+				"url": "https://aws.amazon.com",
+				"category": "Cloud"
+			},
+			{
+				"aliases": [
+					"gcp",
+					"cloud"
+				],
+				"color": "#4285F4",
+				"description": "Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.",
+				"homepage": "https://cloud.google.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "Google Cloud",
+				"url": "https://cloud.google.com",
+				"category": "Cloud"
+			},
+			{
+				"aliases": [
+					"heroku",
+					"paas"
+				],
+				"color": "#430098",
+				"description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+				"homepage": "https://www.heroku.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "Heroku",
+				"url": "https://www.heroku.com",
+				"category": "Cloud"
+			},
+			{
+				"aliases": [
+					"linode",
+					"cloud"
+				],
+				"color": "#00A95C",
+				"description": "Simplify your cloud infrastructure with Linode's Linux virtual machines and develop, deploy, and scale your modern applications faster and easier.",
+				"homepage": "https://www.linode.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "Linode",
+				"url": "https://www.linode.com",
+				"category": "Cloud"
+			}
+		]
+	},
+	{
+		"section": "Monitoring Referrals",
+		"about": "This section contains referrals for monitoring tools.",
+		"slug": "monitoring-referrals",
+		"referrals": [
+			{
+				"aliases": [
+					"uptime",
+					"status"
+				],
+				"color": "#0E153A",
+				"affiliate": "https://instatus.com?via=infinity-dev",
+				"description": "Get a beautiful status page in 10 seconds, without paying thousands of dollars!",
+				"homepage": "https://instatus.com",
+				"icon": "heroicons-outline:status-online",
+				"name": "Instatus",
+				"url": "",
+				"category": "Monitoring"
+			},
+			{
+				"aliases": [
+					"cloudflare",
+					"cdn"
+				],
+				"color": "#F38020",
+				"description": "Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.",
+				"homepage": "https://www.cloudflare.com",
+				"icon": "heroicons-outline:cloud",
+				"name": "Cloudflare",
+				"url": "https://www.cloudflare.com",
+				"category": "CDN"
+			}
+		]
+	}
+]

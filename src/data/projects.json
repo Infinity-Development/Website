@@ -1,0 +1,104 @@
+[
+    {
+        "section": "Active Projects",
+        "about": "This section contains active projects.",
+        "slug": "active-projects",
+        "projects": [
+            {
+                "name": "Infinity List",
+                "state": "active",
+                "url": "https://github.com/InfinityBotList",
+                "description": "Begin your Discord Journey with our Extensive Directory!",
+                "coverImage": "/projects/infinitybots.png",
+                "homepage": "https://infinitybots.gg",
+                "private": false,
+                "template": false,
+                "languages": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "PostgreSQL",
+                    "Go",
+                    "Redis",
+                    "Rust",
+                    "Python",
+                    "Svelte"
+                ]
+            },
+            {
+                "name": "CordX",
+                "state": "active",
+                "url": "https://github.com/CordXApp",
+                "description": "Experience the next generation of simplicity for all your digital moments.",
+                "coverImage": "/projects/cordx.png",
+                "homepage": "https://cordximg.host",
+                "private": false,
+                "template": false,
+                "languages": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "MySQL",
+                    "Mongoose",
+                    "Redis"
+                ]
+            },
+            {
+                "name": "Octoflow",
+                "state": "active",
+                "url": "https://github.com/orgs/Git-Logs",
+                "description": "The perfect GitHub tool for developers, never miss a flow again 😉",
+                "coverImage": "/projects/octoflow.png",
+                "homepage": "https://octoflow.ca",
+                "private": false,
+                "template": false,
+                "languages": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "PostgreSQL",
+                    "Go"
+                ]
+            },
+            {
+                "name": "NetSocial",
+                "state": "active",
+                "url": "https://github.com/orgs/Git-Logs",
+                "description": "NetSocial empowers communities to be who they want to be, no more bots, paywalls, and obscene content!",
+                "coverImage": "/projects/netsocial.png",
+                "homepage": "https://netsocial.app",
+                "private": false,
+                "template": false,
+                "languages": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind CSS",
+                    "PostgreSQL",
+                    "Go"
+                ]
+            }
+        ]
+    },
+    {
+        "section": "Archived Projects",
+        "about": "This section contains archived projects.",
+        "slug": "archived-projects",
+        "projects": [
+            {
+                "name": "Metro Reviews",
+                "state": "archived",
+                "url": "https://github.com/MetroReviews",
+                "description": "We simplify the Bot List Approval and Denial Process giving your staff team more time for the important things such as Server Moderation and Support!",
+                "coverImage": "/projects/metroreviews.png",
+                "homepage": "",
+                "private": false,
+                "template": false,
+                "languages": []
+            }
+        ]
+    }
+]

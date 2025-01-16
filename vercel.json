@@ -1,0 +1,28 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"version": 2,
+	"alias": "toxicdevs.site",
+	"cleanUrls": true,
+	"public": true,
+	"regions": [
+		"lhr1"
+	],
+	"redirects": [
+		{
+			"source": "/github",
+			"destination": "https://github.com/Infinity-Development"
+		},
+		{
+			"source": "/discord",
+			"destination": "https://discord.gg/dUsN3Kux"
+		},
+		{
+			"source": "/twitter",
+			"destination": "https://twitter.com/HeyInfinityDevs"
+		},
+		{
+			"source": "/docs",
+			"destination": "https://docs.toxicdevs.site"
+		}
+	]
+}
