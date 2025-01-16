@@ -21,7 +21,7 @@ export function useSeoProps(
 		openGraph: {
 			title,
 			description,
-			site_name: 'Toxic Development',
+			site_name: 'Infinity Development',
 			url: `https://infinitydevs.ca/${router.asPath}`,
 			type: 'website',
 			images: [
@@ -35,8 +35,8 @@ export function useSeoProps(
 		},
 		twitter: {
 			cardType: 'summary_large_image',
-			handle: '@HeyToxicDevs',
-			site: '@HeyToxicDevs',
+			handle: '@HeyInfinityDevs',
+			site: 'https://infinitydevs.ca',
 		},
 		...props,
 	};
