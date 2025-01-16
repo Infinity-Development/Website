@@ -177,7 +177,7 @@ export default function ProjectsPage({ stringifiedProjects }: ProjectProps): JSX
 					</div>
 					{totalProjects === 0 ? (
 						<div className="text-center text-gray-500 dark:text-zinc-400">
-							Whoops, sorry about that chief but we couldn't find any projects that matched your search criteria.
+							Whoops, sorry about that chief but we couldn&apos;t find any projects that matched your search criteria.
 						</div>
 					) : (
 						<ProjectList.Container>
