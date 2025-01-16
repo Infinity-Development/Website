@@ -7,8 +7,8 @@ export function Standard(): JSX.Element {
 	const { menu, settings } = useNavigation();
 
 	return (
-		<Disclosure as="nav" className="fixed top-0 left-0 w-full z-10">
-			<div className="mx-auto px-2">
+		<Disclosure as="nav" className="fixed top-0 left-0 z-10 w-full">
+			<div className="px-2 mx-auto">
 				<div className="relative flex items-center justify-between h-16">
 					<Navbar.Dropdown items={menu} position="top-left">
 						<Button.Icon aria-label="Menu">
