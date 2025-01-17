@@ -2,7 +2,6 @@ import { useTheme } from 'next-themes';
 import { usePersistantState, useStatus } from '~/lib';
 import { NavigationItemType, Theme } from '~/types';
 import type { NavigationItem, NavigationItems } from '~/types';
-import { StatusIndicator } from '../components/StatusIndicator'
 
 const staticMenuItems: Array<Array<NavigationItem>> = [
 	[
@@ -65,21 +64,7 @@ export function useNavigation(): {
 	const { color, loading, status } = useStatus();
 	const { theme, setTheme } = useTheme();
 
-	const menuItems: NavigationItems = [
-		...staticMenuItems,
-		...(!loading && status !== undefined)
-			? [
-				[
-					{
-						type: NavigationItemType.LINK,
-						icon: <StatusIndicator color={color} pulse />,
-						text: status,
-						href: '/status'
-					}
-				]
-			] : []
-
-	];
+	const menuItems: NavigationItems = [...staticMenuItems];
 
 	const settingsItems: NavigationItems = [
 		[

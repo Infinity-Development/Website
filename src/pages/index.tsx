@@ -74,7 +74,7 @@ export default function HomePage(): JSX.Element {
 							opacity: [0, 1],
 							scale: [0.75, 1],
 						}}
-						className="max-w-xs mx-auto mt-4 text-base text-gray-400 md:mt-8 sm:text-lg md:text-xl md:max-w-3xl"
+						className="max-w-xs mx-auto mt-4 text-base text-gray-400 md:mt-8 sm:text-lg md:text-xl md:max-w-3xl dark:text-zinc-400"
 						transition={{
 							delay: 0.5,
 						}}>

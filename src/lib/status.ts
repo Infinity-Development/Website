@@ -8,7 +8,7 @@ export type Status = {
 
 async function getStatus() {
 	const check = await fetch('https://toxic-development.instatus.com/summary.json');
-	let response = await check.json();
+	const response = await check.json();
 
 	return {
 		status: response.page.status,

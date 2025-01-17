@@ -2,7 +2,7 @@ export interface Project {
 	description: string;
 	homepage?: string;
 	icon?: string;
-	languages?: string[];
+	languages?: Array<string>;
 	name: string;
 	post?: string;
 	state: string;
@@ -12,9 +12,10 @@ export interface Project {
 	repository?: string;
 	coverImage?: string;
 }
+
 export interface ProjectSection {
 	section: string;
 	about: string;
 	slug: string;
-	projects: Project[];
+	projects: Array<Project>;
 }
