@@ -48,7 +48,7 @@
             {
                 "name": "Octoflow",
                 "state": "active",
-                "url": "https://github.com/orgs/Git-Logs",
+                "url": "https://github.com/Git-Logs",
                 "description": "The perfect GitHub tool for developers, never miss a flow again 😉",
                 "coverImage": "/projects/octoflow.png",
                 "homepage": "https://octoflow.ca",
@@ -66,7 +66,7 @@
             {
                 "name": "NetSocial",
                 "state": "active",
-                "url": "https://github.com/orgs/Git-Logs",
+                "url": "https://github.com/NetSocialOSS",
                 "description": "NetSocial empowers communities to be who they want to be, no more bots, paywalls, and obscene content!",
                 "coverImage": "/projects/netsocial.png",
                 "homepage": "https://netsocial.app",
